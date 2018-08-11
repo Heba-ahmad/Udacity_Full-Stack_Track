@@ -1,3 +1,4 @@
+import fresh_tomatoes
 import media
 
 Arrietty = media.Movie("Arrietty", "Arrietty, a tiny teenager, lives with her parents in the recesses of a suburban home, unbeknown to the homeowner and housekeeper. Like others of her kind, Arrietty remains hidden from her human hosts, but occasionally ventures forth from beneath the floorboards to borrow sugar cubes and other supplies. A secret friendship forms when 12-year-old Shawn meets Arrietty, but their relationship could spell danger for Arrietty's family.", "http://t3.gstatic.com/images?q=tbn:ANd9GcSKt62ofk-ko3kXHFOcqO5ZYjEhbO8itYTVSYvHPpNWUgeQ-VI_", "https://www.youtube.com/watch?v=VlMe7PavaRQ")
@@ -19,4 +20,5 @@ toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to
 avatar = media.Movie("Avatar", "A marine on an alien planet", "https://images-na.ssl-images-amazon.com/images/I/61OUGpUfAyL._SY879_.jpg", "https://www.youtube.com/watch?v=6ziBFh3V1aM")
 
 
-
+movies= [Arrietty, beauty_and_the_beast, Big_Hero_6, The_Devil_Wears_Prada, avatar, The_Book_of_Eli, beauty_and_the_beast, toy_story, avatar ]
+fresh_tomatoes.open_movies_page(movies)
